@@ -6,7 +6,7 @@
 你可以按任意顺序返回答案。
 
 1.暴力法 嵌套循环 
-执行用时 128ms 内存消耗41.2MB
+执行用时 128ms 内存消耗41.2MB 时间复杂度是O(n^2)
 
 var twoSum = function(nums, target) {
     for(var i = 0; i < nums.length; i++) {
